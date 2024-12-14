@@ -1,0 +1,112 @@
+/*
+Link to Figma: https://scrimba.com/links/santa-saas-figma
+*/
+* {
+  --red: rgba(143, 0, 2, 0.83);
+  --light-red: #fff2f2;
+  --dark-red: #470000;
+}
+
+body {
+  font-size: 18px;
+  width: 1440px;
+  color: white;
+  margin: auto;
+}
+
+header,
+main {
+  width: 1240px;
+}
+
+/* BG COLORS */
+
+.bg-circle-red {
+  position: absolute;
+  background-color: var(--red);
+  top: -3023px;
+  left: -3130px;
+  width: 6151px;
+  height: 4105px;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.bg-circle-white-left,
+.bg-circle-white-right {
+  position: absolute;
+  background-color: white;
+  width: 768px;
+  height: 768px;
+  border-radius: 50%;
+  opacity: 20%;
+  filter: blur(200px);
+}
+
+.bg-circle-white-left {
+  top: -227px;
+  left: 1224px;
+}
+
+.bg-circle-white-right {
+  top: -24px;
+  left: -510px;
+}
+
+/* ********** NAV *********** */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 30px 0;
+  justify-content: space-between;
+}
+
+.nav-img {
+  margin-right: 10px;
+}
+
+.menu,
+.nav-btns {
+  display: flex;
+}
+
+.menu {
+  margin: auto;
+}
+
+button {
+  border: white solid 1px;
+  padding: 15px 40px;
+  background-color: transparent;
+  color: white;
+  border-radius: 5px;
+  margin: 0 5px;
+}
+
+.sign-in-btn {
+  background-color: white;
+  color: var(--red);
+}
+
+ul,
+li {
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+}
+img {
+  display: block;
+  max-width: 80%;
+  margin: 20px auto;
+}
+
+#customer img {
+  width: 100px;
+}
