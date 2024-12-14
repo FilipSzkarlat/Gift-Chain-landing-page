@@ -12,11 +12,16 @@ body {
   width: 1440px;
   color: white;
   margin: auto;
+  overflow-x: hidden;
 }
 
 header,
 main {
   width: 1240px;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 /* BG COLORS */
@@ -109,4 +114,26 @@ img {
 
 #customer img {
   width: 100px;
+}
+
+/* HEADER SECTION */
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 64px;
+  margin-bottom: 32px;
+}
+
+.header-section-btns-container {
+  margin-top: 35px;
+  margin-bottom: 82px;
+}
+
+.dashboard-img {
+  border-radius: 20px;
 }
